@@ -1,0 +1,128 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    display: block;
+}
+
+
+ul {
+list-style: none;
+}
+
+
+/*header*/
+
+
+.header {
+    width: 1366px;
+    margin: auto;
+}
+
+
+.header-nav {
+    width: 1170px;
+    padding-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 38px;
+}
+
+
+.logo, .header-menu-item {
+    float: left;
+}
+.header-menu {
+    float: right;
+}
+
+
+.header-menu-item {
+    margin-left: 30px;
+}
+
+
+/*main*/
+
+.main-title {
+    margin: 105px 0px 33px 100px;
+}
+
+.main-title-info {
+    width: 438px;
+    margin-bottom: 28px;
+}
+
+.main-img {
+    float: right;
+}
+
+
+
+.conteiner-text{
+    float: left;
+}
+
+
+
+
+.cp-marg {
+    margin-top: 42px;
+}
+
+.but-1 {
+    float: left;
+}
+
+
+.but-2 {
+    float: left;
+    margin-left: 546px;
+}
+
+
+.but-3 {
+    float: right;
+}
+
+
+/*Footer*/
+
+
+.footer {
+    width: 1366px;
+    margin: 42px auto;
+}
+
+.info, .contact, .footer-nav, .footer-menu {
+    float: left;
+}
+.contact {
+    margin-left: 246px;
+}
+
+.footer-nav {
+    margin-left: 145px;
+}
+
+
+.news {
+    margin-left: 55px;
+}
+
+.social {
+    margin-left: 135px;
+}
