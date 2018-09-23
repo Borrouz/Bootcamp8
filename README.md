@@ -3,6 +3,7 @@ Html+css and JS
 https://borrouz.github.io/Bootcamp8/
 
 homework-1 работа по первому модулю HTML
+homework_2 работа по 3 модулю
 work_1  работа которую выполняли 18.09.2018 верстка
 work_2  работа которую выполняли 19.09.2018 верстка
 
