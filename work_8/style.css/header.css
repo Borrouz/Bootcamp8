@@ -1,0 +1,55 @@
+.info-item {
+    float: left;
+    list-style-type: none;
+    padding-right: 40px;
+    position: relative;
+    left:40px;
+}
+
+.info-item-mail {
+    position: relative;
+}
+
+.info-item-tel {
+    position: relative;
+}
+.header-small {
+padding:20px 0;
+width: 1170px;
+margin: auto;
+}
+.header {
+    width: 1366px;
+    border-bottom: 1px solid gray;
+}
+
+.info-item-mail::before {
+    content: "";
+    background-image: url(../header_small/Mail_Ico@1X.jpeg);
+    width: 18px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    position: absolute;
+}
+
+.fl {
+    float: right;
+}
+
+.info-item-tel::before {
+    content: "";
+    background-image: url(../header_small/Phone_Ico@1X.jpeg);
+    height: 11px;
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+    width: 18px;
+    position: absolute;
+}
+.block {
+float: left;
+}

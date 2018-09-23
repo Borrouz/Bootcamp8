@@ -1,0 +1,32 @@
+.article {
+    margin: 230px 280px 230px 0;
+}
+
+.menu_info {
+    margin-top: 80px;
+}
+
+.title_info {
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.sub-title {
+    font-weight: bolder;
+}
+
+.icon::before {
+    content: "";
+    background-image: url(../main/Cart\ Ico\ @1X.png);
+    width: 18px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 5px;
+    position: absolute;
+}
+
+.icon {
+    position: relative;
+}

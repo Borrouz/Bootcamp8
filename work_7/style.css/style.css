@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    counter-reset: variable 66;
+}
+/* ul { 
+    counter-increment: variable
+}*/
+
+li:before {
+    counter-increment: variable -13;
+    content: counter(variable);
+}

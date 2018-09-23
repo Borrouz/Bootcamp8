@@ -1,0 +1,15 @@
+.float {
+    float: left;
+}
+
+
+.logo {
+    float: left;
+}
+
+.header-big {
+    width: 1170px;
+    margin: auto;
+    padding-top: 45px;
+    padding: 30px;
+}
