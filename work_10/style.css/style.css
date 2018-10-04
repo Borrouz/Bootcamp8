@@ -1,0 +1,53 @@
+.bg {
+	background-color: yellow;
+	color: #fff;
+	height: 500px;
+	text-align: center;
+}
+.wr {
+	height: 300px;
+}
+
+.wrapper div:nth-child(odd){
+	background-color: rgb(187, 73, 73);
+	border: 3px solid black; 
+	/* min-height: 80px; */
+	
+}
+
+.wrapper div:nth-child(even){
+	background-color: rgb(115, 173, 73);
+	border: 3px solid black;
+	/* min-height: 80px;  */
+	
+}
+
+.wrapper {
+    display: grid;
+   grid-template: repeat(4, 1fr) / repeat(3,1fr);
+   grid-gap:20px;
+   grid-template-areas: 
+   'header header header'
+   'sidebar content content'
+   'sidebar content content'
+   'footer footer footer';
+             
+}
+
+
+.item1 {
+	grid-area: content;
+}
+
+.item2 {
+	grid-area: sidebar;
+}
+
+.item3 {
+	grid-area: header;
+
+}
+
+.item4 {
+	grid-area: footer;
+}
