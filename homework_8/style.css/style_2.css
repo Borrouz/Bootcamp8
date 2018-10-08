@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+/* Header */
+
+.head_marg {
+    padding-top: 46px;
+    padding-bottom: 160px;
+}
+.nav_marg {
+margin-bottom: 172px;
+}
+.bg_conteiner {
+    width: 100%;
+    background-image: linear-gradient(rgba(209, 209, 208, 0.5), rgba(209, 209, 208, 0.5)), url(../img/Vector\ Smart\ Object@1X.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header_wrap {
+    background-size: cover;
+    width: 320px;
+    padding-bottom: 130px;
+    margin: auto;
+    
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 151px;
+    margin: auto;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    align-items: center;
+    /* padding: 20px 0 120px; */
+}
+
+.sign_up {
+    width: 90px;
+    line-height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header_title{
+    font-size: 32px;
+    color: #ffffff;
+    font-family: Monserat, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header_par {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    width: 217px;
+    margin: 19px auto;
+}
+.header_buttom{
+
+    background-color: #ff4e50;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+/* Main */
+/* .main_list {
+margin: auto;
+} */
+.main_wrap {
+    width: 320px;
+    margin: auto;
+}
+
+.main_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #333333;
+    margin: 68px auto 14px;
+}
+
+.mini {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 41px;
+    height: 41px;
+}
+
+.logo, .logo_2, .logo_3, .logo_4 {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.logo{
+    background-image: url(../img/Layer\ 6@1X.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.logo_2 {
+    background-image: url(../img/Layer\ 8@1X.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.logo_3 {
+    background-image: url(../img/Layer\ 7@1X.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.logo_4 {
+    background-image: url(../img/Layer\ 10@1X.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_who {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    margin: 20px auto 16px;
+    text-transform: capitalize;
+}
+
+.main_where {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #989898;
+    width: 200px;
+    margin: 0 auto 28px;
+}
+
+.main_button{
+    background-color:#ffffff ;
+    color: #ff4e50;
+    border: 3px solid #ff4e50 ;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+
+@media(min-width:768px) and (max-width:1199px) {
+    .header_wrap {
+        width: 768px;
+    }
+    .nav_marg {
+        margin-bottom: 0;
+        }
+    .bg_conteiner {
+        background-image: linear-gradient(rgba(209, 209, 208, 0.5), rgba(209, 209, 208, 0.5)), url(../img/Vector\ Smart\ Object@1X.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .header_nav {
+        margin: 0;
+        padding: 0;
+    }
+   
+   .main_wrap {
+    width: 768px;
+    
+}
+.header_marg {
+ padding-top: 46px;
+padding-bottom: 160px;
+}
+}
+
+@media(min-width:1200px) {
+.header_wrap {
+    width: 1200px;
+}
+.main_wrap {
+    width: 1200px
+}
+.nav_marg {
+    margin-bottom: 0;
+    }
+}
