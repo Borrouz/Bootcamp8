@@ -1,0 +1,83 @@
+массив- это обычный объект в котором хранится однотипная информация для работы с не
+
+первый способ создать массив
+let arr = [52, 23, 12,10]; пользоватся этим способом
+второй способ 
+let arr2 = new Array(2, 5, 10);
+
+Проверка длинны массива
+console.log(firstArray.length);
+
+открыть определенный объект массива
+console.lof(firstArray.[порядковый номер элемента];
+
+let firstArray = [1,2,3];  |
+console.log(firstArray[0]);|------> перезаписать данные элемента в массиве
+firstArray[0] = 100;       |
+console.log(firstArray);   |
+
+метод push
+let firstArray = ['Иван', 'Вася', 'Сережа'];|
+firstArray.push('Петро', 'Ираклий');        |
+firstArray.push(10);                        |
+console.log(firstArray);                    |------------>        добавить елементы в конец массива
+
+метод pop (для удаления)
+
+let firstArray = ['Иван', 'Вася', 'Сережа'];|
+firstArray.push('Петро', 'Ираклий');        |
+let user = firstArray.pop();                |----> удаляет всегда последний елемент массива
+console.log(firstArray);                    |
+
+метод shift
+let firstArray = [1,2,3];       |
+console.log(firstArray.shift());|--------> удаляет первый елемент массива
+console.log(firstArray);
+
+метод unshift
+let firstArray = [1,2,3];  |
+firstArray.unshift(27, 52);|--------> добавляет в начало массива елементы
+console.log(firstArray);   |
+
+доступ к последнему елементу массива
+
+let firastArray [5,8,13,14,25,26,98,75];|
+let lenghtArr = firastArray.lenght;     |-----> стучимся к последнему елементу массива
+console.log(firastArray[lenght - 1]);   |
+console.log(firstArray);        |
+
+
+узнаем индекс елемента
+let firastArray = ['abc', 'h', 'b', 'd'];|-------> покажет индекс елемента
+console.log(firstArray.indexOf('abc')); |
+
+// узнаем наличие елемента в массиве
+let firstArray = [11, 112, 23, 45];   |
+console.log(firstArray.includes(23)); |-------> віводит true или falce
+console.log(firstArray.includes(150));|
+
+// метод объеденения массивов concut
+let firstArray = [10, 8, 7, 5];                     |
+let secondArr = [12, 13, 16, 19, 87];               |
+let newArray = ['add me', 'join us'];               |------> объеденяет массивы, при этом создает новый массив (надо сделать переменной)
+let result = firstArray.concat(secondArr, newArray);|
+console.log(result);                                |
+
+
+метод вырезания елементов slice
+
+let arr = [5, 10, 12, 15, 25];                    |
+let newArr = arr.slice(от какого,по какой индекс);|------> Делает копию оригинального массива.вірезает с оригинального массива елементы оставляя оригинальный массив нетронутым
+let arr3 = arr.slice(3);                          |
+чтоб просто сделать копию массива let newArr = arr.slice();
+
+метод вырезания елементов splice
+
+let arr = [1, 5, 9, 8, 7, 10];                       |
+// // delete                                         |
+let x = arr.slice();                                 |----> удаляет елементі перезаписівая ориг. массив
+x.splice(после какогоелемента,сколько штук вырезать);|      рекомендуется сделать копию массива с помощью slice.
+                                                            
+let arr = [1, 5, 9, 8, 7, 10];
+let x = arr.slice();
+x.splice(c какого индекса,удалять ли елементы или оставить, что вставить после того индекса который ввели вначале);
