@@ -1,0 +1,26 @@
+цикл состоит из 3 частей. 
+1. счетчик сколько раз выполнилс€ цикл
+2. условие которое указывает когда циклу закончитс€
+3. тело цикла (код)
+
+“ипы циклов
+while +
+let number = 0;
+let arr = [];
+// пока счетчик меньше 4
+while (number < 4) {
+    let userNumber = prompt('Enter nuber');
+    if(userNumber !== null && userNumber !=='') {
+    arr.push (+(userNumber));
+    number++;
+    }else {
+        break; (выключить цикл)
+    }
+}
+console.log(arr);
+
+do whille +
+for +  |
+for of |--------> чаще используетс€
+break
+continue
