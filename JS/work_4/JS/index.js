@@ -102,18 +102,18 @@
   записывая его в переменную longestWord.
 */
 
-// const string = "May the force be with you";
-// let longestWord = '';
-// let arr = string.split (' ');
-// for (let i = 0; i < arr.length; i+=1) {
-//     // console.log (arr [i]);
-//     if (longestWord.length < arr[i].length) {
-//         longestWord = arr[i];
-//     }
-// }
-// console.log(longestWord);
-// console.log(arr); // 'force'
-// console.log(arr[2])
+const string = "May the force be with you";
+let longestWord = '';
+let arr = string.split (' ');
+for (let i = 0; i < arr.length; i+=1) {
+    // console.log (arr [i]);
+    if (longestWord.length < arr[i].length) {
+        longestWord = arr[i];
+    }
+}
+console.log(longestWord);
+console.log(arr); // 'force'
+console.log(arr[2])
 
 
 
