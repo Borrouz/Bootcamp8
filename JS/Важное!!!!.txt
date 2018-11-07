@@ -1,0 +1,12 @@
+Object.keys(obj) --- выводит ключи в формате массива
+Object.values(obj) ---  выводит значени€ в формате массива 
+Object.enteries(obj) ---- выводит пару ключ : значение
+
+
+1. const add = function(a,b,c) {
+	return a+b+c;                     -------- функциональное выражение (Function expression)
+};
+
+2.function add (a,b,c) {
+	return a+b+c;                     -------- объ€вдение функции (Function declaration)
+}
