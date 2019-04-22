@@ -1,0 +1,11 @@
+.weightWrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.weightOption {
+    width: 40%;
+
+}

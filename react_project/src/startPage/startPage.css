@@ -1,0 +1,92 @@
+
+
+.startPageList {
+    list-style: none;
+    background-image: url('https://www.indigoirk.ru/wp-content/uploads/2013/02/detocs1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.startPageListItem:not(:first-child){
+    margin-top: 2rem;
+  }
+  
+
+.startPageListItem {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.span {
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.Options {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 3rem;
+}
+.Header {
+    background-color: #4CAF50;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.Number {
+    width: 61%;
+    height: 2rem;
+}
+
+.Options {
+    width: 20%;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Form {
+    width: 20%;
+    font-weight: bold;
+}
+
+.startPageBtn {
+    text-align: center;
+    width: 8rem;
+    margin: 3rem auto 3rem auto;
+    display: inline-block;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-family: 'Baloo Chettan', cursive;
+    text-transform: uppercase;
+}
+.startPageBtn:hover {
+    background-color: #3e8e41
+}
+.startPageBtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.textDec {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.linkWrap {
+    display: flex;
+    justify-content: center;
+
+}
+

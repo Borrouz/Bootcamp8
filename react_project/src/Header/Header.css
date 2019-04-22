@@ -1,0 +1,66 @@
+
+.mainHeader {
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4CAF50;
+    font-family: 'Baloo Chettan', cursive;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    align-items: center;
+}
+
+.newWeight {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(33, 27, 53);
+    color: white;
+    border: 2px solid rgb(38, 9, 139);
+    text-transform: uppercase;
+    border-radius: 5.5rem;
+    font-weight: bold;
+}
+
+.newWeight:hover {
+    background-color: rgb(38, 9, 139);
+    color: black;
+}
+
+.settings {
+    padding: 25px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(33, 27, 53);
+    color: white;
+    border: 2px solid rgb(38, 9, 139);
+    text-transform: uppercase;
+    border-radius: 5.5rem;
+    font-weight: bold;
+    position: relative;
+}   
+
+.settings:before {
+    content: url(./controls.svg);
+    position: absolute;
+    width: 1.5rem;
+    bottom: 0.5rem;
+    right: 34px;
+}
+
+
+.settings:hover {
+    background-color: rgb(38, 9, 139);
+    color: black;
+}
